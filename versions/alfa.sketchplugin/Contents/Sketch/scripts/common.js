@@ -9,7 +9,7 @@ var MD = {
     this.version = this.context.plugin.version() + "";
     this.MDVersion = this.prefs.stringForKey("MDVersion") + "" || 0;
 
-    this.baseUrl = "http://chetverukhin.ru/alfabank-sketch/";
+    this.baseUrl = "https://design.alfabank.ru/s/alfa-sketch/";
 
     this.extend(context);
     this.pluginRoot = this.scriptPath
